@@ -1,10 +1,4 @@
-export class Shape {
-  getPerimeter() {
-    return 0
-  }
-
-  getArea() {
-    return 0
-  }
-
+export abstract class Shape {
+  abstract getArea(): number
+  abstract getPerimeter(): number
 }
