@@ -1,7 +1,8 @@
 # Shapes
 
 ## Description
-
+This library provides the ability to create and work with three types
+of geometric shapes: rectangle, triangle and circle.
 
 ## Set up
 Just copy and paste this in terminal
