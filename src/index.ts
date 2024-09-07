@@ -1,4 +1,4 @@
-class Shape {
+export class Shape {
   getPerimeter() {
     return
   }
@@ -9,7 +9,7 @@ class Shape {
 
 }
 
-class Rectangle extends Shape{
+export class Rectangle extends Shape{
    width = 0
   private height = 0
 
@@ -29,7 +29,8 @@ class Rectangle extends Shape{
 
 }
 type numberOfSide = 1 | 2 | 3
-class Triangle extends Shape{
+
+export class Triangle extends Shape{
   private firstSide = 0
   private secondSide = 0
   private thirdSide = 0
@@ -74,7 +75,7 @@ class Triangle extends Shape{
   }
 }
 
-class Cirle extends Shape{
+export class Cirle extends Shape{
   private radius = 0
 
   constructor(radius: number) {

@@ -2,6 +2,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "allowJs": false,
+    "outDir": "dist",
+    "declaration": true,
     "strict": true
   },
   "include": ["src"],
