@@ -43,6 +43,7 @@ const rectangle = new Rectangle(1, 2)
 console.log(rectangle.getArea())
 ``` 
 
+## Docs
 ### Classes
 
 #### Class Rectangle
