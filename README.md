@@ -42,3 +42,63 @@ const rectangle = new Rectangle(1, 2)
 
 console.log(rectangle.getArea())
 ``` 
+
+### Classes
+
+#### Class Rectangle
+Creating by
+```js
+const {Rectangle} = require('./shapes/dist/lib/node/index.js')
+
+const rectangle = new Rectangle(1, 2)
+```
+##### Properties
+1. `width` - private
+2. `height` - private
+
+##### Methods
+1. `getArea` - return rectangle's area
+2. `getPerimeter` - return rectangle's perimeter
+3. `getWidth` - return rectangle's width
+4. `setWidth` - set new rectangle's width
+5. `getHeight`
+6. `setHeight` 
+
+#### Class Triangle
+Creating by
+```js
+const {Triangle} = require('./shapes/dist/lib/node/index.js')
+
+const triangle = new Triangle(1, 2, 3)
+```
+##### Properties
+1. `firstSide` - private
+2. `secondSide` - private
+3. `thirdSide` - private
+
+##### Methods
+1. `getArea` - return triangle's area
+2. `getPerimeter` - return triangle's perimeter
+3. `getgetFirstSide` - return triangle's width
+4. `setgetFirstSide` - set new triangle's width
+5. `getSecondSide`
+6. `setSecondSide` 
+7. `getThirdSide`
+8. `setThirdSide` 
+9. `getHeight` - return the height drawn to a certain side
+
+#### Class Circle
+Creating by
+```js
+const {Circle} = require('./shapes/dist/lib/node/index.js')
+
+const circle = new Circle(1)
+```
+
+##### Properties
+1. `radius` - private
+
+##### Methods
+1. `getArea` - return circle's area
+2. `getPerimeter` - return circle's perimeter
+3. `getDiameter` - return circle's diameter

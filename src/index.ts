@@ -117,7 +117,7 @@ export class Triangle extends Shape{
   }
 }
 
-export class Cirle extends Shape{
+export class Circle extends Shape{
   private radius = 0
 
   constructor(radius: number) {
