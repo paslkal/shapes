@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "CommonJS",
     "target": "ESNext",
     "allowJs": false,
-    "outDir": "./dist/lib/esm",
+    "outDir": "./dist/lib/node",
     "declaration": true,
     "strict": true
   },
