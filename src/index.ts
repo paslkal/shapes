@@ -1,16 +1,16 @@
 export class Shape {
   getPerimeter() {
-    return
+    return 0
   }
 
   getArea() {
-    return
+    return 0
   }
 
 }
 
 export class Rectangle extends Shape{
-   width = 0
+  private width = 0
   private height = 0
 
   constructor(width: number, height: number) {
@@ -27,7 +27,24 @@ export class Rectangle extends Shape{
     return this.width * this.height
   }
 
+  getWidth() {
+    return this.width
+  }
+
+  setWidth(width: number) {
+    this.width = width
+  }
+
+  getHeight() {
+    return this.height
+  }
+
+  setHeight(height: number) {
+    this.height = height
+  }
+
 }
+
 type numberOfSide = 1 | 2 | 3
 
 export class Triangle extends Shape{
@@ -55,6 +72,31 @@ export class Triangle extends Shape{
     return area
   }
 
+  getFirstSide() {
+    return this.firstSide
+  }
+
+  setFirstSide(side: number) {
+    this.firstSide = side
+  }
+
+  getSecondSide() {
+    return this.secondSide
+  }
+
+  setSecondSide(side: number) {
+    this.secondSide = side
+  }
+
+  getThirdSide() {
+    return this.thirdSide
+  }
+
+  setThirdSide(side: number) {
+    this.thirdSide = side
+  }
+
+  // s = a*h / 2
   getHeight(numberOfSide: numberOfSide) {
     let side = null
     
@@ -88,7 +130,11 @@ export class Cirle extends Shape{
   }
 
   getPerimeter() {
-    return 2 * Math.PI * this.radius
+    return Math.PI * this.getRadius()
+  }
+
+  getRadius() {
+    return this.radius
   }
 
   getDiameter() {
